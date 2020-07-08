@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+        integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="slider.js">
+    <link rel="stylesheet" href="slider-style.css">
+
+</head>
+
+<body>
+    <div class="slidercontainer">
+        <div class="showSlide fade">
+            <img src="images/slider-img.png" />
+
+        </div>
+        <div class="showSlide fade">
+            <img src="images/slider2.png" />
+
+        </div>
+
+        <div class="showSlide fade">
+            <img src="images/slider3.png" />
+
+        </div>
+        <div class="showSlide fade">
+            <img src="images/slider4.png" />
+
+        </div>
+
+
+    </div>
+    <!-- Navigation arrows -->
+    <div class="nav-arrows">
+        <a class="left" onclick="nextSlide(-1)"><img src="images/left-arrow.png" alt=""></a>
+        <a class="right" onclick="nextSlide(1)"><img src="images/right-arrow.png" alt=""></a>
+    </div>
+    <script src="slider.js"></script>
+</body>
+
+</html>

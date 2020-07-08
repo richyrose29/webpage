@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style-sheet.css" />
+    <link rel="stylesheet" href="slider-style.css">
+</head>
+
+<body>
+
+    <div class="nav-container">
+        <div class="logo">
+            <img src="images/logo.png" alt="" width="250" />
+        </div>
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Delivery</li>
+                <li>Updates</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Slider Section -->
+    <div class="slidercontainer">
+        <div class="showSlide fade">
+            <img src="images/slider-img.png" />
+
+        </div>
+        <div class="showSlide fade">
+            <img src="images/slider-img3.png" />
+
+        </div>
+
+        <div class="showSlide fade">
+            <img src="images/slider-img4.png" />
+
+        </div>
+        <div class="showSlide fade">
+            <img src="images/slider-img5.png" />
+
+        </div>
+
+
+    </div>
+    <!-- Navigation arrows -->
+    <div class="nav-arrows">
+        <a class="left" onclick="nextSlide(-1)"><img src="images/left-arrow.png" alt=""></a>
+        <a class="right" onclick="nextSlide(1)"><img src="images/right-arrow.png" alt=""></a>
+    </div>
+
+    <!--Welcome Section-->
+    <div class="row">
+        <div class="column column1">
+            <img src="images/working.png" alt="">
+            <h2 class="welcome-title">Welcome to Achieve North West</h2> <br>
+            <p class="welcome-info">ANWC delivers intensive case managed support to<br>
+                offenders in the community and custodial settings.<br>
+                Offenders are supported through the prison gate into<br>
+                the community, retaining continuity to assist their <br>
+                journey towards gaining new skills and employment.</p> <br>
+            <button class="read-btn">Read More</button>
+        </div>
+
+
+        <div class="column column2">
+            <div class="quote">
+                <img src="images/quote.png" alt="">
+            </div>
+        </div>
+
+        <div class="space"></div>
+
+        <!--Our Delivery-->
+
+        <div class="row">
+            <div class="column column3">
+                <h1 class="deliv-title">Our Delivery</h1>
+                <img src="images/woman.png" alt="" class="woman-1">
+            </div>
+
+
+            <div class="column column4">
+                <div class="deliv-div">
+                    <h3 class="delivery-info">Community Delivery</h3> <br>
+                    <p class="delivery-info">
+                        We tailor our work to the needs of the individual <br>
+                        to ensure that their learning and employment goals are <br>
+                        realistic and achievable, considering local labour gaps <br>
+                        and areas of growth.
+                </div> <br>
+                <button class="read-btn">Read More</button>
+            </div>
+
+
+
+
+            <!--Prison Delivery-->
+            <div class="row">
+                <div class="column column3 prisn-div">
+                    <div class="prisn-div">
+                        <h3 class="prsn-deliv-title delivery-info">Prison Delivery</h3><br>
+                        <p class="prsn-delivery-info delivery-info">
+                            We have located experienced case managers <br>
+                            to work at each site offering offenders the <br>
+                            opportunity to learn new skills and gain support <br>
+                            to help them upon release. .</p> <br>
+                        <button class="prsn-read-btn read-btn">Read More</button>
+                    </div>
+                </div>
+
+
+                <div class="column column4">
+                    <div class="prison-deliv-div">
+
+                        <img src="images/woman2.png" alt="" class="woman-2">
+                    </div>
+                </div>
+
+                <!--Partners-->
+
+                <div class="row">
+                    <div class="column column3">
+                        <h1 class="deliv-title"></h1>
+                        <img src="images/handshake.png" alt="" class="woman-1">
+                    </div>
+
+
+                    <div class="column column4">
+                        <div class="deliv-div">
+                            <h3 class="delivery-info">Partnerships</h3> <br>
+                            <p class="delivery-info">
+                                Achieve North West Connect (ANWC) work in close <br>
+                                partnership with a range of sub-contractors and <br>
+                                providers who support our delivery through providing <br>
+                                services including mentoring, through the gate <br>
+                                support, accredited training courses and employment.</p> <br>
+                        </div>
+                        <button class="read-btn">Read More</button>
+                    </div>
+
+
+                    <section>
+                        <div class="desk">
+                            <a href="data/dummy.pdf" download><button
+                                    class="read-btn download-btn">Download</button></a>
+                            <img src="images/desk3.png" alt="" class="desk-img">
+                        </div>
+
+
+                        <div class="contact-form">
+                            <form action="">
+                                <input type="text" placeholder="Name" class="fname">
+                                <input type="text" placeholder="Email address" class="femail"><br>
+                                <input type="text" placeholder="Phone number" class="fphoneno">
+                                <input type="text" placeholder="Your postcode" class="fpost">
+                            </form>
+                            <textarea name="" id="" cols="50" rows="10" class="ftext" placeholder="Enquiry"></textarea>
+
+                        </div>
+                        <br>
+                        <button class="read-btn send-btn">Send</button>
+
+
+                    </section>
+                    <footer></footer>
+                    <script src="slider.js"></script>
+</body>
+
+</html>
